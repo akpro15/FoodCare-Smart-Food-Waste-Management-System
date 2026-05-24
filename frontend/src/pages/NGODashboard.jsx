@@ -19,7 +19,7 @@ function NGODashboard() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/food/all"
+        "https://foodcare-backend.onrender.com/api/food/all"
       );
 
       const ngoFoods = response.data.filter(
@@ -46,7 +46,7 @@ function NGODashboard() {
     try {
 
       const response = await axios.put(
-        `http://localhost:5000/api/food/accept/${id}`,
+        `https://foodcare-backend.onrender.com/api/food/accept/${id}`,
         {
           ngoName: user.name,
         }
@@ -92,7 +92,7 @@ function NGODashboard() {
                 food.image && (
 
                   <img
-                    src={`http://localhost:5000/uploads/${food.image}`}
+                    src={`https://foodcare-backend.onrender.com/uploads/${food.image}`}
                     alt="food"
                     className="w-full h-60 object-cover rounded-2xl mb-5"
                   />

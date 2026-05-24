@@ -13,7 +13,7 @@ function AcceptedFoods() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/food/accepted"
+        "https://foodcare-backend.onrender.com/api/food/accepted"
       );
 
       setFoods(response.data);

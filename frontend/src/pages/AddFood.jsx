@@ -46,7 +46,7 @@ function AddFood() {
       data.append("image", formData.image);
 
       const response = await axios.post(
-        "http://localhost:5000/api/food/add",
+        "https://foodcare-backend.onrender.com/api/food/add",
         data
       );
 

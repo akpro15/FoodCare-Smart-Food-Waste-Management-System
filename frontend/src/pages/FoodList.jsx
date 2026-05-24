@@ -16,7 +16,7 @@ function FoodList() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/food/all"
+        "https://foodcare-backend.onrender.com/api/food/all"
       );
 
       setFoods(response.data);
@@ -32,7 +32,7 @@ function FoodList() {
     try {
 
       const response = await axios.put(
-        `http://localhost:5000/api/food/accept/${id}`
+        `https://foodcare-backend.onrender.com/api/food/accept/${id}`
       );
 
       alert(response.data.message);
@@ -50,7 +50,7 @@ function FoodList() {
     try {
 
       const response = await axios.delete(
-        `http://localhost:5000/api/food/delete/${id}`
+        `https://foodcare-backend.onrender.com/api/food/delete/${id}`
       );
 
       alert(response.data.message);
@@ -95,7 +95,7 @@ function FoodList() {
             food.image && (
 
               <img
-                src={`http://localhost:5000/uploads/${food.image}`}
+                src={`https://foodcare-backend.onrender.com/uploads/${food.image}`}
                 alt="food"
                 className="w-full h-60 object-cover rounded-lg mb-4"
               />

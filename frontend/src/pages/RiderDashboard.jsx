@@ -19,7 +19,7 @@ function RiderDashboard() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/food/all"
+        "https://foodcare-backend.onrender.com/api/food/all"
       );
 
       // ONLY ACCEPTED FOODS
@@ -44,7 +44,7 @@ function RiderDashboard() {
     try {
 
       const response = await axios.put(
-        `http://localhost:5000/api/food/deliver/${id}`,
+        `https://foodcare-backend.onrender.com/api/food/deliver/${id}`,
         {
           riderName: user.name,
         }
@@ -90,7 +90,7 @@ function RiderDashboard() {
                 food.image && (
 
                   <img
-                    src={`http://localhost:5000/uploads/${food.image}`}
+                    src={`https://foodcare-backend.onrender.com/uploads/${food.image}`}
                     alt="food"
                     className="w-full h-60 object-cover rounded-2xl mb-5"
                   />

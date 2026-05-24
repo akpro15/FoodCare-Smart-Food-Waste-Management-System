@@ -19,7 +19,7 @@ function NGOHistory() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/food/all"
+        "https://foodcare-backend.onrender.com/api/food/all"
       );
 
       const ngoFoods = response.data.filter(
