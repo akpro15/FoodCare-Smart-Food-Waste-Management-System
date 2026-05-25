@@ -2,6 +2,7 @@
 import hero from "../assets/hero.png";
 import ngo from "../assets/ngo.png";
 import rider from "../assets/rider.png";
+import home from "../assets/home.png";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 
@@ -79,7 +80,7 @@ Donors, NGOs, and Riders through one smart platform.
         <div className="flex justify-center mt-10 md:mt-0">
 
           <img
-            src={hero}
+            src={home}
             alt="Food Donation"
             className="rounded-[40px] shadow-[0_20px_60px_rgba(0,0,0,0.25)] w-full max-w-xl hover:scale-105 transition duration-500 border-4 border-white"
           />
