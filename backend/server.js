@@ -15,7 +15,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://food-care-smart-food-waste-manageme.vercel.app/",
+    origin: "https://food-care-smart-food-waste-manageme.vercel.app",
     credentials: true,
   })
 );
