@@ -7,10 +7,10 @@ FoodCare is a full-stack MERN web application that helps reduce food waste by co
 ## 🚀 Live Demo
 
 Frontend:
-[https://YOUR-VERCEL-LINK](https://food-care-smart-food-waste-manageme.vercel.app/)
+[(https://food-care-smart-food-waste-manageme.vercel.app/)
 
 Backend:
-[https://YOUR-RENDER-LINK](https://foodcare-backend.onrender.com)
+[(https://foodcare-backend.onrender.com)
 
 ---
 
