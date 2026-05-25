@@ -74,7 +74,7 @@ Backend:
 ## 📂 Installation
 
 ```bash
-git clone YOUR_GITHUB_REPO_LINK
+git clone https://github.com/akpro15/FoodCare-Smart-Food-Waste-Management-System
 ```
 
 ### Frontend
@@ -111,6 +111,5 @@ Contributions are welcome!
 
 ## 📧 Contact
 
-Aditya Kumar  
-CSE (IoT) Student  
+Aditya Kumar 
 Institute of Engineering and Management
