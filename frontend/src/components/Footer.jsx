@@ -60,9 +60,9 @@ function Footer() {
 
             <div className="mt-5 text-green-100 space-y-3">
 
-              <p>Email: foodcare@gmail.com</p>
+              <p>Email: ak9755684220@gmail.com</p>
 
-              <p>Phone: +91 9876543210</p>
+              <p>Phone: +91 7221995014</p>
 
               <p>Kolkata, India</p>
 
